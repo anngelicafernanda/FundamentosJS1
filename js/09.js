@@ -1,6 +1,6 @@
 //Operaciones en los arreglos
 
-const tecnologias = ["html", "css", "tailwind", "javascript", "react", "node.js"]
+const tecnologias = ["HTML", "CSS", "tailwind", "JavaScript", "React", "Node.js"]
 
 //tecnologias.push("GraphQl") //Añade al final del array
 //tecnologias.unshift("GraphQl") //Añade al inicio del array
@@ -16,7 +16,7 @@ const nuevoArreglo2 = ["GraphQL", ...tecnologias]
 //filter no modifica el arreglo original
 
 const nuevoArray = tecnologias.filter(function(tech){
-    if (tech === "html"){
+    if (tech === "HTML"){
         return "GraphQL"
     } else {
         return tech
